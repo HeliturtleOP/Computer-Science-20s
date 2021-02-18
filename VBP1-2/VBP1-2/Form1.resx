@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>I really like watching tv and playing videogames. I'm a big fan of animated tv shows and i really like indie video games. The computer i have at home isnt the best, so indie games are good because they arnt as intense on the computer's resources.
+I also really like making my own video games with the Unity3D game engine and the C# language. I took this course in the hope that i would be able to get better at programing so i can do things outside of unity and C# with code. In a normal year i would usually also volunteer at the YMCA.
+i also have a brother.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
