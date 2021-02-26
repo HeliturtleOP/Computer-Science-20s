@@ -61,12 +61,12 @@ Partial Class Form1
         Me.RadioButton33 = New System.Windows.Forms.RadioButton()
         Me.RadioButton34 = New System.Windows.Forms.RadioButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -543,41 +543,14 @@ Partial Class Form1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Hair Color"
         '
-        'Button1
+        'Button6
         '
-        Me.Button1.BackColor = System.Drawing.Color.DarkGoldenrod
-        Me.Button1.Location = New System.Drawing.Point(23, 30)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(40, 40)
-        Me.Button1.TabIndex = 0
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.SpringGreen
-        Me.Button2.Location = New System.Drawing.Point(69, 30)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(40, 40)
-        Me.Button2.TabIndex = 1
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Maroon
-        Me.Button3.Location = New System.Drawing.Point(115, 30)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(40, 40)
-        Me.Button3.TabIndex = 2
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.Blue
-        Me.Button4.Location = New System.Drawing.Point(161, 30)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(40, 40)
-        Me.Button4.TabIndex = 3
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Button6.BackColor = System.Drawing.Color.Indigo
+        Me.Button6.Location = New System.Drawing.Point(253, 30)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(40, 40)
+        Me.Button6.TabIndex = 5
+        Me.Button6.UseVisualStyleBackColor = False
         '
         'Button5
         '
@@ -588,14 +561,41 @@ Partial Class Form1
         Me.Button5.TabIndex = 4
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'Button6
+        'Button4
         '
-        Me.Button6.BackColor = System.Drawing.Color.Indigo
-        Me.Button6.Location = New System.Drawing.Point(253, 30)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(40, 40)
-        Me.Button6.TabIndex = 5
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button4.BackColor = System.Drawing.Color.Blue
+        Me.Button4.Location = New System.Drawing.Point(161, 30)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(40, 40)
+        Me.Button4.TabIndex = 3
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Maroon
+        Me.Button3.Location = New System.Drawing.Point(115, 30)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(40, 40)
+        Me.Button3.TabIndex = 2
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.SpringGreen
+        Me.Button2.Location = New System.Drawing.Point(69, 30)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(40, 40)
+        Me.Button2.TabIndex = 1
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Gold
+        Me.Button1.Location = New System.Drawing.Point(23, 30)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(40, 40)
+        Me.Button1.TabIndex = 0
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
