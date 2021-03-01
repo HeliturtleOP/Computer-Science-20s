@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     Private Sub RadioButton18_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton18.CheckedChanged
         Label3.Text = RadioButton18.Text
     End Sub
@@ -181,5 +182,10 @@
         Inverse = RGB(255 - Button1.BackColor.R, 255 - Button1.BackColor.G, 255 - Button1.BackColor.B)
         Label9.ForeColor = Color.FromArgb(Inverse)
         Label9.Text = Button1.BackColor.Name
+    End Sub
+
+    Private Sub Form1_Activated(sender As Object, e As EventArgs) Handles Me.Activated
+        RadioButton1.Checked = False
+        Label2.Text = ""
     End Sub
 End Class
