@@ -118,6 +118,72 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrangonBorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dwarf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Half-Elf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Halfling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Half-Orc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Human.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teifling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barbarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cleric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Druid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fighter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paladin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ranger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rogue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sorcerer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artificer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
