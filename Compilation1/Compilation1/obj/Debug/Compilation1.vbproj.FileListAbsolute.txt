@@ -1,0 +1,12 @@
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\bin\Debug\Compilation1.exe.config
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\bin\Debug\Compilation1.exe
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\bin\Debug\Compilation1.pdb
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\bin\Debug\Compilation1.xml
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.vbprojAssemblyReference.cache
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.Form1.resources
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.Resources.resources
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.vbproj.GenerateResource.cache
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.vbproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.exe
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.xml
+C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.pdb
