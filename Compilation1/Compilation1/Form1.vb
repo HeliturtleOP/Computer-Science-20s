@@ -60,33 +60,43 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ColorDialog1.ShowDialog()
-        ChangeColor(ColorDialog1.Color, 1)
-        Button2.BackColor = ColorDialog1.Color
+        If ColorDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            ChangeColor(ColorDialog1.Color, 1)
+            Button2.BackColor = ColorDialog1.Color
+        End If
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        ColorDialog1.ShowDialog()
-        ChangeColor(ColorDialog1.Color, 0)
-        Button1.BackColor = ColorDialog1.Color
+        If ColorDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            ChangeColor(ColorDialog1.Color, 0)
+            Button1.BackColor = ColorDialog1.Color
+        End If
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        ColorDialog1.ShowDialog()
-        ChangeColor(ColorDialog1.Color, 2)
-        Button3.BackColor = ColorDialog1.Color
+        If ColorDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            ChangeColor(ColorDialog1.Color, 2)
+            Button3.BackColor = ColorDialog1.Color
+        End If
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        ColorDialog1.ShowDialog()
-        ChangeColor(ColorDialog1.Color, 3)
-        Button4.BackColor = ColorDialog1.Color
+        If ColorDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            ChangeColor(ColorDialog1.Color, 3)
+            Button4.BackColor = ColorDialog1.Color
+        End If
+
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        ColorDialog1.ShowDialog()
-        ChangeColor(ColorDialog1.Color, 4)
-        Button5.BackColor = ColorDialog1.Color
+        If ColorDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            ChangeColor(ColorDialog1.Color, 4)
+            Button5.BackColor = ColorDialog1.Color
+        End If
+
     End Sub
 
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
@@ -293,17 +303,14 @@
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
         MediaclMask()
-        'Accesorie = 1
     End Sub
 
     Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
         Moustache()
-        'Accesorie = 2
     End Sub
 
     Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
         Monacle()
-        'Accesorie = 3
     End Sub
 
     Public Sub SetLabel()
@@ -342,5 +349,23 @@
 
 
 
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        If My.Computer.FileSystem.DirectoryExists(My.Application.Info.DirectoryPath.ToString & "\Images\") = False Then
+            My.Computer.FileSystem.CreateDirectory(My.Application.Info.DirectoryPath.ToString & "\Images\")
+        End If
+        Try
+
+            If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath.ToString & "\Images\" & displayName & ".png") Then
+                PictureBox1.Image.Save(My.Application.Info.DirectoryPath.ToString & "\Images\" & displayName & 1 & ".png")
+            Else
+                PictureBox1.Image.Save(My.Application.Info.DirectoryPath.ToString & "\Images\" & displayName & ".png")
+            End If
+
+        Catch ex As Exception
+            MsgBox("error while saving")
+
+        End Try
     End Sub
 End Class

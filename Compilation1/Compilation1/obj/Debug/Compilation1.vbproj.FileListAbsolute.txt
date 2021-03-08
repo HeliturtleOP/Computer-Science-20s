@@ -10,3 +10,14 @@ C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compi
 C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.exe
 C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.xml
 C:\Users\Owner\source\repos\HeliturtleOP\Computer-Science-20s\Compilation1\Compilation1\obj\Debug\Compilation1.pdb
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\bin\Debug\Compilation1.exe.config
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.exe
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.xml
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.pdb
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\bin\Debug\Compilation1.exe
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\bin\Debug\Compilation1.pdb
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\bin\Debug\Compilation1.xml
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.vbprojResolveAssemblyReference.cache
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.Form1.resources
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.Resources.resources
+\\sc-op-file-1\Users-op\Students\oproulx\My Documents\Computer Science 20s\VBL01\Compilation1\Compilation1\obj\Debug\Compilation1.vbproj.GenerateResource.Cache
